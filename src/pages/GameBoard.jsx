@@ -1,8 +1,6 @@
-import { useValidateUser } from "../hooks";
 export default function GameBoard() {
-  useValidateUser("/game-board");
   return (
-    <main>
+    <main className="h-screen">
       <h1>Game Board</h1>
     </main>
   );

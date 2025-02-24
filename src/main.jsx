@@ -3,19 +3,21 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import GameBoard from "./pages/GameBoard";
+import MainLayout from "./components/layouts/MainLayout";
 
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/game-board",
+    element: <MainLayout />,
     children: [
       {
-        path: "/",
-        element: <HomePage />,
-      },
-      {
-        path: "game-board",
+        index: true,
         element: <GameBoard />,
       },
     ],
