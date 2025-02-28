@@ -34,4 +34,4 @@ Open in: [http://localhost:5173/](http://localhost:5173)
 
 ## Deploying the application in vercel
 
-URL: [https://memory-game-five-gilt.vercel.app/](https://memory-game-five-gilt.vercel.app/)
+URL: [https://memory-game-puce-theta.vercel.app/](https://memory-game-puce-theta.vercel.app/)
