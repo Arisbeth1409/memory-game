@@ -1,8 +1,37 @@
-# React + Vite
+## Memory game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Memory game created with the following technologies: **React + Vite, React Hook Form, Tailwindcss**.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository
+
+```bash
+git clone git@github.com:Arisbeth1409/memory-game.git
+```
+
+2. Go to the project directory
+
+```bash
+cd memory-game
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+## Start the project in development mode
+
+Run:
+
+```bash
+npm run dev
+```
+
+Open in: [http://localhost:5173/](http://localhost:5173)
+
+## Deploying the application in vercel
+
+URL: [https://memory-game-five-gilt.vercel.app/](https://memory-game-five-gilt.vercel.app/)
