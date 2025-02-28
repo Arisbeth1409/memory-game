@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import GameBoard from "./pages/GameBoard";
-import MainLayout from "./components/layouts/MainLayout";
+import MainLayout from "./layouts/MainLayout";
 
 import "./index.css";
 
